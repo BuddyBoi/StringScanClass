@@ -82,9 +82,6 @@ public:
 
 int main()
 {
-	StringScan.ScanFile( "c:\\cheat.dll" );
-	StringScan.bHasString( "aimbot" );
-	StringScan.bHasString( "triggerbot" );
-	StringScan.bHasString( "cheat" );
-	StringScan.bHasString( "argentina" );
+	StringScan.ScanFile( "c:\\file.exe" );
+	StringScan.bHasString( "string" );
 }
